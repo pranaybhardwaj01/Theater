@@ -41,44 +41,10 @@
 </head>
 
 <body>
+<!-- Header Starts -->
+<jsp:include page="jsp/commonHeader.jsp"/>  
 
-	<!--==========================
-    Header
-  ============================-->
-	<header id="header">
-		<div class="container">
-
-			<div id="logo" class="pull-left">
-				<!-- Uncomment below if you prefer to use a text logo -->
-				<!-- <h1><a href="#main">C<span>o</span>nf</a></h1>-->
-				<a href="#intro" class="scrollto"><img src="img/newLogo.png"
-					alt="" title=""></a>
-			</div>
-
-			<nav id="nav-menu-container">
-				<ul class="nav-menu">
-					<li class="menu-active"><a href="#intro">Home</a></li>
-					<li><a href="#aboutUs">About Us</a></li>
-					<li><a href="#speakers">Our Work</a></li>
-					<li><a href="#gallery">Gallery</a></li>
-					<li><a href="#" data-toggle="dropdown">Sanhita Manch</a>
-					<ul class="dropdown-menu">
-						<li><a href="#" class="dropdown-item">Sanhita Manch 2019</a></li>
-						<li><a href="#" class="dropdown-item">Sanhita Manch 2018</a></li>
-						<li><a href="#" class="dropdown-item">Sanhita Manch 2017</a></li>
-						</ul>
-					</li>
-					<li><a href="#venue">Upcoming Events</a></li>
-					<li><a href="#contact">Contact</a></li>
-					<li><a href="#">Donate</a></li>
-					<li class="buy-tickets"><a href="#">login</a></li>
-					<li class="buy-tickets"><a href="#">Register Now</a></li>
-				</ul>
-			</nav>
-			<!-- #nav-menu-container -->
-		</div>
-	</header>
-	<!-- #header -->
+<!-- Header Ends -->
 
 	<!--==========================
     Intro Section
@@ -152,7 +118,7 @@
 							class="img-fluid">
 						<div class="details">
 							<h3>
-								<a href="speaker-details.html">Raat Na Aaye</a>
+								<a href="speaker-details.jsp">Raat Na Aaye</a>
 							</h3>
 							<p>BASED ON EUGINE O’NIL’S LONG DAYS JOURNEY INTO NIGHT</p>
 
@@ -164,7 +130,7 @@
 						<img src="img/speakers/satthe.jpg" alt="Satthe" class="img-fluid">
 						<div class="details">
 							<h3>
-								<a href="speaker-details.html">Satthe</a>
+								<a href="speaker-details.jsp">Satthe</a>
 							</h3>
 							<p>Iss Kambakht Sathe Ka Kya Karien ?</p>
 
@@ -176,7 +142,7 @@
 						<img src="img/speakers/museum.jpg" alt="Museum" class="img-fluid">
 						<div class="details">
 							<h3>
-								<a href="speaker-details.html">Museum</a>
+								<a href="speaker-details.jsp">Museum</a>
 							</h3>
 							<p>Directed by Rasika Agashe</p>
 
@@ -362,50 +328,12 @@
 	</section>
 	<!-- #contact --> </main>
 
+<!-- Footer Starts -->
+<jsp:include page="jsp/commonFooter.jsp"/>  
 
-	<!--==========================
-    Footer
-  ============================-->
-	<footer id="footer">
-		<div class="footer-top">
-			<div class="container">
-				<div class="row">
+<!-- Footer Ends -->
+	
 
-						<div class="social-links">
-						
-					       <h2>Follow us </h2>
-							<a href="#" class="twitter"><i class="fa fa-twitter"></i></a> <a
-								href="#" class="facebook"><i class="fa fa-facebook"></i></a> <a
-								href="#" class="instagram"><i class="fa fa-instagram"></i></a> <a
-								href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-							<a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-						</div>
-
-
-				</div>
-			</div>
-		</div>
-	</footer>
-	<!-- #footer -->
-
-	<a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
-
-	<!-- JavaScript Libraries -->
-	<script src="lib/jquery/jquery.min.js"></script>
-	<script src="lib/jquery/jquery-migrate.min.js"></script>
-	<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-	<script src="lib/easing/easing.min.js"></script>
-	<script src="lib/superfish/hoverIntent.js"></script>
-	<script src="lib/superfish/superfish.min.js"></script>
-	<script src="lib/wow/wow.min.js"></script>
-	<script src="lib/venobox/venobox.min.js"></script>
-	<script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
-	<!-- Contact Form JavaScript File -->
-	<script src="contactform/contactform.js"></script>
-
-	<!-- Template Main Javascript File -->
-	<script src="js/main.js"></script>
 </body>
 
 </html>
